@@ -1,10 +1,10 @@
-package com.google.samples.quickstart.config;
+package com.hemantarora.firebase.remoteconfig.quickstart;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.filters.LargeTest;
 
-import com.google.samples.quickstart.config.java.MainActivity;
+import com.hemantarora.firebase.remoteconfig.quickstart.java.MainActivity;
 
 import org.junit.Rule;
 import org.junit.Test;

@@ -19,7 +19,7 @@
  * https://firebase.google.com/docs/remote-config/android
  */
 
-package com.google.samples.quickstart.config.java;
+package com.hemantarora.firebase.remoteconfig.quickstart.java;
 
 import android.os.Bundle;
 import androidx.annotation.NonNull;
@@ -34,8 +34,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigException;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
-import com.google.samples.quickstart.config.R;
-import com.google.samples.quickstart.config.databinding.ActivityMainBinding;
+import com.hemantarora.firebase.remoteconfig.quickstart.R;
+import com.hemantarora.firebase.remoteconfig.quickstart.databinding.ActivityMainBinding;
 import com.google.firebase.remoteconfig.ConfigUpdateListener;
 import com.google.firebase.remoteconfig.ConfigUpdate;
 

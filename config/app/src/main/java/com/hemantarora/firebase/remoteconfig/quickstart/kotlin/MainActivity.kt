@@ -1,4 +1,4 @@
-package com.google.samples.quickstart.config.kotlin
+package com.hemantarora.firebase.remoteconfig.quickstart.kotlin
 
 import android.os.Bundle
 import android.util.Log
@@ -12,8 +12,8 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfigException
 import com.google.firebase.remoteconfig.get
 import com.google.firebase.remoteconfig.remoteConfig
 import com.google.firebase.remoteconfig.remoteConfigSettings
-import com.google.samples.quickstart.config.R
-import com.google.samples.quickstart.config.databinding.ActivityMainBinding
+import com.hemantarora.firebase.remoteconfig.quickstart.R
+import com.hemantarora.firebase.remoteconfig.quickstart.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

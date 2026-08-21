@@ -1,4 +1,4 @@
-package com.google.samples.quickstart.config
+package com.hemantarora.firebase.remoteconfig.quickstart
 
 import android.content.Intent
 import com.firebase.example.internal.BaseEntryChoiceActivity
@@ -13,7 +13,7 @@ class EntryChoiceActivity : BaseEntryChoiceActivity() {
                 "Run the Firebase Remote Config quickstart written in Java.",
                 Intent(
                     this,
-                    com.google.samples.quickstart.config.java.MainActivity::class.java,
+                    com.hemantarora.firebase.remoteconfig.quickstart.java.MainActivity::class.java,
                 ),
             ),
             Choice(
@@ -21,7 +21,7 @@ class EntryChoiceActivity : BaseEntryChoiceActivity() {
                 "Run the Firebase Remote Config quickstart written in Kotlin.",
                 Intent(
                     this,
-                    com.google.samples.quickstart.config.kotlin.MainActivity::class.java,
+                    com.hemantarora.firebase.remoteconfig.quickstart.kotlin.MainActivity::class.java,
                 ),
             ),
         )
